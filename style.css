@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("num.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inp {
+  border: 2px solid #6119e6;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #88ed0c, #c33737);
+  padding: 40px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 400px;
+  top: 190px;
+  font-size: 50px;
+  font-family: 'Roboto';
+}
+
+.inp input {
+  width: 170px;
+  height: 40px;
+  position: relative;
+  top: -6px;
+  font-size: 20px;
+  border: 1px solid #f24040;
+  border-radius: 9px;
+  background: #0a638f;
+}
+
+button {
+
+  width: 80px;
+  height: 30px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: -9px #c8f4d7;
+  top: -9px;
+  left: 10px;
+  border: 1px solid #ff00d0;
+}
+
+.output {
+  position: absolute;
+  top: 70%;
+  left: 450px;
+  font-size: 20px;
+}
+
+.real {
+  position: absolute;
+  left: 257px;
+  top: 326px;
+  font-size: 35px;
+}
+
+.scare {
+  position: absolute;
+  right: 30px;
+  transition: all 0.5s ease-in;
+}
+
+.won {
+  position: absolute;
+  right: 13px;
+  top: 110px;
+  font-size: 55px;
+}
+
+h1 {
+  font-size: 33px;
+  color: beige;
+}
+
+h1 span {
+  color: aqua ;
+}
